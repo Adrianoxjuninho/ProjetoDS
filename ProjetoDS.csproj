@@ -12,7 +12,10 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+<<<<<<< HEAD
     <IsWebBootstrapper>false</IsWebBootstrapper>
+=======
+>>>>>>> 07dd74b86e1a92c64cb1ebe65b6c2f24cc480416
     <PublishUrl>F:\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -25,6 +28,10 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+<<<<<<< HEAD
+=======
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+>>>>>>> 07dd74b86e1a92c64cb1ebe65b6c2f24cc480416
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
@@ -49,10 +56,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
+<<<<<<< HEAD
     <ManifestCertificateThumbprint>B5EEF9DE025466844F6A6DC174D594829AB0EEA2</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestKeyFile>ProjetoDS_1_TemporaryKey.pfx</ManifestKeyFile>
+=======
+    <ManifestCertificateThumbprint>C5B38ECEC31F502B854ABBB26D192598BF205724</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>ProjetoDS_TemporaryKey.pfx</ManifestKeyFile>
+>>>>>>> 07dd74b86e1a92c64cb1ebe65b6c2f24cc480416
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
@@ -60,6 +74,7 @@
   <PropertyGroup>
     <SignManifests>true</SignManifests>
   </PropertyGroup>
+<<<<<<< HEAD
   <PropertyGroup>
     <SignAssembly>false</SignAssembly>
   </PropertyGroup>
@@ -70,6 +85,8 @@
     <AssemblyOriginatorKeyFile>
     </AssemblyOriginatorKeyFile>
   </PropertyGroup>
+=======
+>>>>>>> 07dd74b86e1a92c64cb1ebe65b6c2f24cc480416
   <ItemGroup>
     <Reference Include="BouncyCastle.Crypto, Version=1.8.5.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
       <HintPath>packages\BouncyCastle.1.8.5\lib\BouncyCastle.Crypto.dll</HintPath>
@@ -86,6 +103,7 @@
     <Reference Include="K4os.Hash.xxHash, Version=1.0.6.0, Culture=neutral, PublicKeyToken=32cd54395057cec3, processorArchitecture=MSIL">
       <HintPath>packages\K4os.Hash.xxHash.1.0.6\lib\net46\K4os.Hash.xxHash.dll</HintPath>
     </Reference>
+<<<<<<< HEAD
     <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
       <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
     </Reference>
@@ -104,6 +122,8 @@
     <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
       <HintPath>packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
     </Reference>
+=======
+>>>>>>> 07dd74b86e1a92c64cb1ebe65b6c2f24cc480416
     <Reference Include="MySql.Data, Version=8.0.29.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
       <HintPath>packages\MySql.Data.8.0.29\lib\net452\MySql.Data.dll</HintPath>
     </Reference>
@@ -171,19 +191,25 @@
     <Compile Include="model\Produto.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <Compile Include="SqlServerTypes\Loader.cs" />
+=======
+>>>>>>> 07dd74b86e1a92c64cb1ebe65b6c2f24cc480416
     <Compile Include="view\CarregamentoSistema.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="view\CarregamentoSistema.Designer.cs">
       <DependentUpon>CarregamentoSistema.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="view\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="view\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+=======
+>>>>>>> 07dd74b86e1a92c64cb1ebe65b6c2f24cc480416
     <Compile Include="view\FrmProduto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -220,12 +246,15 @@
     <Compile Include="view\FrmProdutoAntigo.Designer.cs">
       <DependentUpon>FrmProdutoAntigo.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="view\FrmVenda.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="view\FrmVenda.Designer.cs">
       <DependentUpon>FrmVenda.cs</DependentUpon>
     </Compile>
+=======
+>>>>>>> 07dd74b86e1a92c64cb1ebe65b6c2f24cc480416
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -236,6 +265,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+<<<<<<< HEAD
     <EmbeddedResource Include="Report1.rdlc" />
     <EmbeddedResource Include="view\CarregamentoSistema.resx">
       <DependentUpon>CarregamentoSistema.cs</DependentUpon>
@@ -243,6 +273,11 @@
     <EmbeddedResource Include="view\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+=======
+    <EmbeddedResource Include="view\CarregamentoSistema.resx">
+      <DependentUpon>CarregamentoSistema.cs</DependentUpon>
+    </EmbeddedResource>
+>>>>>>> 07dd74b86e1a92c64cb1ebe65b6c2f24cc480416
     <EmbeddedResource Include="view\FrmProduto.resx">
       <DependentUpon>FrmProduto.cs</DependentUpon>
     </EmbeddedResource>
@@ -261,9 +296,12 @@
     <EmbeddedResource Include="view\FrmProdutoAntigo.resx">
       <DependentUpon>FrmProdutoAntigo.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="view\FrmVenda.resx">
       <DependentUpon>FrmVenda.cs</DependentUpon>
     </EmbeddedResource>
+=======
+>>>>>>> 07dd74b86e1a92c64cb1ebe65b6c2f24cc480416
     <None Include="packages.config" />
     <None Include="ProjetoDS_TemporaryKey.pfx" />
     <None Include="Properties\Settings.settings">
@@ -297,6 +335,7 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+<<<<<<< HEAD
   <ItemGroup>
     <None Include="img\suporte.png" />
   </ItemGroup>
@@ -318,5 +357,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
+=======
+>>>>>>> 07dd74b86e1a92c64cb1ebe65b6c2f24cc480416
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

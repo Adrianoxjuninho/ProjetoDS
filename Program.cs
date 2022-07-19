@@ -17,7 +17,11 @@ namespace ProjetoDS
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+<<<<<<< HEAD
             Application.Run(new CarregamentoSistema());
+=======
+            Application.Run(new FrmProduto());
+>>>>>>> 07dd74b86e1a92c64cb1ebe65b6c2f24cc480416
         }
     }
 }

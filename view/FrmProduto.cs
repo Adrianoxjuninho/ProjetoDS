@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 ﻿using MySql.Data.MySqlClient;
 using ProjetoDS.conexao;
 using ProjetoDS.dao;
+=======
+﻿using ProjetoDS.dao;
+>>>>>>> 07dd74b86e1a92c64cb1ebe65b6c2f24cc480416
 using ProjetoDS.model;
 using System;
 using System.Collections.Generic;
@@ -83,12 +87,15 @@ namespace ProjetoDS.view
             //CARREGAR O DATAGRIDVIEW
             ProdutoDAO produtoDAO = new ProdutoDAO();
             dgProduto.DataSource = produtoDAO.ListarTodosProdutos();
+<<<<<<< HEAD
 
             FornecedorDAO dAO1 = new FornecedorDAO();
             comoBoxFiltro.DataSource = dAO1.fornecedorlist();
 
             comoBoxFiltro.DisplayMember = "COLUMN_NAME";
             comoBoxFiltro.ValueMember = "COLUMN_NAME";
+=======
+>>>>>>> 07dd74b86e1a92c64cb1ebe65b6c2f24cc480416
         }
 
         private void dgProduto_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -96,7 +103,11 @@ namespace ProjetoDS.view
             txtid.Text = dgProduto.CurrentRow.Cells[0].Value.ToString();
             txtDescricaoDoProduto.Text = dgProduto.CurrentRow.Cells[1].Value.ToString();
             txtqtd.Text = dgProduto.CurrentRow.Cells[2].Value.ToString();
+<<<<<<< HEAD
             CampoPreco.Text = dgProduto.CurrentRow.Cells[3].Value.ToString();
+=======
+            CampoPreco.Text = dgProduto.CurrentRow.Cells[2].Value.ToString();
+>>>>>>> 07dd74b86e1a92c64cb1ebe65b6c2f24cc480416
             tbFornecedor.Text = dgProduto.CurrentRow.Cells[4].Value.ToString();
 
             TabPrdouto.SelectedTab = TabCadastro;
@@ -104,6 +115,7 @@ namespace ProjetoDS.view
 
         private void BtnBuscar_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             MySqlConnection conexao = ConnectionFactory.getConnection();
 
             Produto obj = new Produto();
@@ -125,8 +137,13 @@ namespace ProjetoDS.view
             sqlDataAdapter.Fill(tabela);
 
             dgProduto.DataSource = tabela.Tables[0];
+=======
+>>>>>>> 07dd74b86e1a92c64cb1ebe65b6c2f24cc480416
 
         }
     }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 07dd74b86e1a92c64cb1ebe65b6c2f24cc480416

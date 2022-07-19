@@ -73,6 +73,7 @@ namespace ProjetoDS.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
         internal static System.Drawing.Bitmap baixados1 {
             get {
                 object obj = ResourceManager.GetObject("baixados1", resourceCulture);
@@ -83,12 +84,15 @@ namespace ProjetoDS.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+=======
+>>>>>>> 07dd74b86e1a92c64cb1ebe65b6c2f24cc480416
         internal static System.Drawing.Bitmap salve_ {
             get {
                 object obj = ResourceManager.GetObject("salve-", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+<<<<<<< HEAD
         
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
@@ -109,5 +113,7 @@ namespace ProjetoDS.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+=======
+>>>>>>> 07dd74b86e1a92c64cb1ebe65b6c2f24cc480416
     }
 }

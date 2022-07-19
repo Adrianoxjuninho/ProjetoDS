@@ -148,6 +148,7 @@ namespace ProjetoDS.dao
             return tabelaFornecedor;
         }
         #endregion
+<<<<<<< HEAD
 
         #region Método de Listar Todos os Fornecedores
         public DataTable fornecedorlist()
@@ -177,6 +178,8 @@ namespace ProjetoDS.dao
             return tabelaFornecedor;
         }
         #endregion
+=======
+>>>>>>> 07dd74b86e1a92c64cb1ebe65b6c2f24cc480416
     }
 }
 

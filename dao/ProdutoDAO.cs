@@ -95,6 +95,10 @@ namespace ProjetoDS.dao
                 MessageBox.Show("Aconteceu um erro:" + erro);
             }
         }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 07dd74b86e1a92c64cb1ebe65b6c2f24cc480416
         #endregion
 
         #region //Metodo lIstar clientes
@@ -129,7 +133,10 @@ namespace ProjetoDS.dao
 
         }
         #endregion
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 07dd74b86e1a92c64cb1ebe65b6c2f24cc480416
     }
 }

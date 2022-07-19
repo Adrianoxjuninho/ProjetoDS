@@ -34,6 +34,7 @@ namespace ProjetoDS.view
             Frmclientes frmclientes = new Frmclientes();
             frmclientes.ShowDialog();
         }
+<<<<<<< HEAD
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
@@ -44,5 +45,7 @@ namespace ProjetoDS.view
         {
 
         }
+=======
+>>>>>>> 07dd74b86e1a92c64cb1ebe65b6c2f24cc480416
     }
 }

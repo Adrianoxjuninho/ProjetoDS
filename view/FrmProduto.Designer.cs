@@ -219,12 +219,18 @@
             // 
             // dgProduto
             // 
+<<<<<<< HEAD
             this.dgProduto.AllowUserToAddRows = false;
             this.dgProduto.AllowUserToDeleteRows = false;
             this.dgProduto.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgProduto.Location = new System.Drawing.Point(6, 70);
             this.dgProduto.Name = "dgProduto";
             this.dgProduto.ReadOnly = true;
+=======
+            this.dgProduto.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgProduto.Location = new System.Drawing.Point(6, 70);
+            this.dgProduto.Name = "dgProduto";
+>>>>>>> 07dd74b86e1a92c64cb1ebe65b6c2f24cc480416
             this.dgProduto.Size = new System.Drawing.Size(756, 174);
             this.dgProduto.TabIndex = 4;
             this.dgProduto.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgProduto_CellClick);
